@@ -1,0 +1,128 @@
+/* ===== Base ===== */
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #ffe4ec;
+    color: #5a3347;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px;
+    line-height: 1.7;
+}
+
+/* ===== Encabezado ===== */
+header {
+    background: linear-gradient(135deg, #ff9ec7, #ff5fa2);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 40px 40px 10px 10px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #ffe4ec;
+    box-shadow: 0 4px 10px rgba(90, 51, 71, 0.3);
+}
+
+h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin: 12px 0 4px;
+}
+
+/* ===== Secciones ===== */
+section {
+    background-color: #fff8fb;
+    border: 2px solid #ffb3d1;
+    border-radius: 20px;
+    padding: 18px 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    background-color: #ff5fa2;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 6px 22px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #d6336c;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* ===== Texto ===== */
+p {
+    font-size: 16px;
+}
+
+strong {
+    color: #d6336c;
+}
+
+em {
+    color: #b8467a;
+}
+
+/* ===== Listas ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #ffd1e3;
+    color: #8a2252;
+    padding: 5px 16px;
+    margin: 4px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    color: #d6336c;
+}
+
+/* ===== Enlaces ===== */
+a {
+    color: #d6336c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff5fa2;
+}
+
+header a {
+    color: #ffffff;
+}
+
+/* ===== Separadores ===== */
+hr {
+    border: none;
+    height: 4px;
+    background-color: #ffb3d1;
+    border-radius: 4px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+/* ===== Pie ===== */
+footer {
+    background-color: #5a3347;
+    color: #ffd1e3;
+    text-align: center;
+    padding: 4px 15px;
+    border-radius: 10px 10px 40px 40px;
+    font-size: 14px;
+}
